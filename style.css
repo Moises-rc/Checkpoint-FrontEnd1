@@ -1,0 +1,86 @@
+body{
+font-family: 'Lato', sans-serif;
+background-color: rgb(231, 231, 231);
+}
+.site{
+
+}
+.cabecalho{
+    background-color:rgb(82, 209, 31);
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width:20px;
+    border-radius: 20px;
+    
+}
+.navegacao{
+display:flex;
+justify-content: flex-start;
+ padding: 10px;
+ margin-top: 5px;
+margin-bottom: 5px;
+justify-content: space-around;
+}
+.navegacao a{
+text-decoration:none;
+font-size:24px;
+color:black;
+padding: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+.navegacao h1{
+    justify-content:flex-start;
+   padding-bottom: 20px;
+
+}
+.resumo{
+    box-sizing:border-box;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 100px;
+    width: 60%;
+    border-width:50px;
+    border-color:white;
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 20px;
+   
+    
+    
+}
+.curiosidades{
+    box-sizing:border-box;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 100px;
+    width: 50;
+    border-width:10px;
+    border-color:white;
+    border-style: solid;
+    border-radius: 20px;
+    font-size:19px;
+    
+      
+}
+
+.direitosautorais{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.fundo {
+background-image:url("./imagens/Vista_da_cidade_de_Nova_Friburgo_de_cima_do_Pico_da_Caledônia.jpg");
+width: 100%;
+height: 1000px;
+background-size:cover;
+
+
+}
