@@ -1,6 +1,8 @@
 body{
-font-family: 'Lato', sans-serif;
+font-family: 'Lato',Arial, Helvetica, sans-serif;
 background-color: rgb(231, 231, 231);
+padding: 0;
+margin:0;
 }
 .site{
 
@@ -12,16 +14,14 @@ background-color: rgb(231, 231, 231);
     margin-top: 5px;
     margin-bottom: 5px;
     border-width:20px;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
 .navegacao{
+
 display:flex;
-justify-content: flex-start;
- padding: 10px;
- margin-top: 5px;
-margin-bottom: 5px;
-justify-content: space-around;
+justify-content:center;
+gap:22%;
 }
 .navegacao a{
 text-decoration:none;
@@ -33,15 +33,14 @@ margin-bottom: 5px;
 
 }
 .navegacao h1{
-    justify-content:flex-start;
-   padding-bottom: 20px;
+padding-top: 10px;;
+padding-bottom: 10px;
 
 }
 .resumo{
     box-sizing:border-box;
     background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding:15px;
     margin: 100px;
     width: 60%;
     border-width:50px;
@@ -56,8 +55,7 @@ margin-bottom: 5px;
 .curiosidades{
     box-sizing:border-box;
     background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
     margin: 100px;
     width: 50;
     border-width:10px;
@@ -68,7 +66,13 @@ margin-bottom: 5px;
     
       
 }
-
+.curiosidades a{
+    color:red;
+    
+   
+    
+    
+}
 .direitosautorais{
     padding: 10px;
     margin-top: 5px;
